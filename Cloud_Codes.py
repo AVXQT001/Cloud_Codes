@@ -10,4 +10,4 @@ def is_prime(num: int):
     return True
 
 def prime(n):                                        
-  return filter(is_prime, n)
+  return filter(is_prime, range(1, n+1))
