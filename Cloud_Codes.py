@@ -15,7 +15,7 @@ class prime:
     self.ans = filter(is_prime, range(1, self.n+1))
     
   def __repr__(self):
-    return self.ans               
+    return str(self.ans)
 
   def __str__(self):
     return str(list(self.ans))
