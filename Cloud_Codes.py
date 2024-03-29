@@ -1,4 +1,5 @@
-import datetime
+import os, datetime
 
-print("I love Cloud Imports")
-print(datetime.datetime.today())
+def into():                                                                                                                        
+  print("Welcome to Cloud Imports!")
+  print(os.getcwd())
