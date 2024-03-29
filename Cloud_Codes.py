@@ -1,5 +1,5 @@
 import os, datetime
 
-def into():                                                                                                                        
+def info():                                                                                                                        
   print("Welcome to Cloud Imports!")
   print(os.getcwd())
