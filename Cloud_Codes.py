@@ -9,5 +9,6 @@ def is_prime(num: int):
             return False
     return True
 
-def prime(n):                                        
-  return filter(is_prime, range(1, n+1))
+class prime:                    
+  def __repr__(self)
+    return filter(is_prime, range(1, n+1))
